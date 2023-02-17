@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.menu_toggle{
+    background-color: rgb(60, 60, 60);
+    color: white;
+    height: 4.5vh;
+    width: 100vw;
+    cursor: pointer;
+    display: inline-block;
+    padding-top:1px
+}
+
+.menu_toggle ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-size: 1.2em;
+}
+
+.menu_toggle li{
+    background-color: #606060;
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+
+.menu_toggle a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    height: 15px;
+}
+
+nav.menu_toggle p{
+    font-size: 1.3em;
+    text-align: center;
+}
